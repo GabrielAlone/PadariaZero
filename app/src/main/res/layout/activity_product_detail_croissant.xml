@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background">
+
+    <!-- Hero Image Container -->
+    <ImageView
+        android:id="@+id/imgProductHero"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="@string/croissant"
+        android:scaleType="centerCrop"
+        android:src="@drawable/croasan"
+        app:layout_constraintHeight_percent="0.48"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Overlay Action Bar Buttons (Back & Favorite) -->
+    <ImageView
+        android:id="@+id/btnDetailBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_badge"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/croissant"
+        android:padding="8dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnFavorite"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_badge"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/croissant"
+        android:padding="8dp"
+        android:src="@drawable/ic_heart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Bottom Sheet Content Container -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-24dp"
+        app:cardBackgroundColor="@color/light_surface"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="8dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgProductHero">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Title: Croissant -->
+            <TextView
+                android:id="@+id/tvDetailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/croissant"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Price -->
+            <TextView
+                android:id="@+id/tvDetailPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/price_croissant"
+                android:textColor="@color/orange_primary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/tvDetailDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/croissant_desc"
+                android:textColor="@color/text_secondary"
+                android:textSize="15sp" />
+
+            <!-- Spacer -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Quantity Selector Controls -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btnMinusQty"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_counter"
+                    android:contentDescription="@string/croissant"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_minus" />
+
+                <TextView
+                    android:id="@+id/tvQty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="24dp"
+                    android:text="@string/qty_one"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/btnPlusQty"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_counter"
+                    android:contentDescription="@string/croissant"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_plus"
+                    app:tint="@color/orange_primary" />
+
+            </LinearLayout>
+
+            <!-- Add to Cart Primary Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddToCart"
+                style="@style/Widget.PadariaZero.Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_to_cart" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

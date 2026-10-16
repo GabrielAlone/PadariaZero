@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="160dp"
+    android:viewportWidth="200"
+    android:viewportHeight="160">
+
+    <!-- Plate -->
+    <path
+        android:fillColor="#F3F4F6"
+        android:pathData="M 20,115 C 20,100 55,90 100,90 C 145,90 180,100 180,115 C 180,135 145,150 100,150 C 55,150 20,135 20,115 Z" />
+
+    <!-- Bottom Bun Part -->
+    <path
+        android:fillColor="#D97706"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2"
+        android:pathData="M 40,90 C 35,115 65,130 100,130 C 135,130 165,115 160,90 C 150,75 110,80 100,80 C 90,80 50,75 40,90 Z" />
+
+    <!-- Yellow Cream Filling -->
+    <path
+        android:fillColor="#FACC15"
+        android:strokeColor="#EAB308"
+        android:strokeWidth="2"
+        android:pathData="M 38,82 C 35,70 60,65 100,65 C 140,65 165,70 162,82 C 160,90 135,92 100,92 C 65,92 40,90 38,82 Z" />
+
+    <!-- Top Bun Part -->
+    <path
+        android:fillColor="#B45309"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2.5"
+        android:pathData="M 42,75 C 38,45 68,25 100,25 C 132,25 162,45 158,75 C 150,65 120,60 100,60 C 80,60 50,65 42,75 Z" />
+
+    <!-- Powdered Sugar Dusting -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 75,40 C 85,32 115,32 125,40 C 120,48 80,48 75,40 Z M 90,30 C 95,27 105,27 110,30 C 108,35 92,35 90,30 Z" />
+
+</vector>

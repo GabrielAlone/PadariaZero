@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="160dp"
+    android:viewportWidth="200"
+    android:viewportHeight="160">
+
+    <!-- Plate Base -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="2"
+        android:pathData="M 10,120 C 10,100 50,85 100,85 C 150,85 190,100 190,120 C 190,140 150,155 100,155 C 50,155 10,140 10,120 Z" />
+
+    <!-- Top Croissant -->
+    <path
+        android:fillColor="#D97706"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2.5"
+        android:pathData="M 50,60 C 40,40 70,25 105,25 C 140,25 165,42 155,65 C 145,82 110,80 90,75 C 65,72 55,70 50,60 Z" />
+
+    <!-- Croissant Flaky Segments (Golden layers) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2"
+        android:pathData="M 75,32 C 85,28 115,28 125,35 C 120,55 90,58 75,32 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2"
+        android:pathData="M 88,30 C 95,27 108,27 115,32 C 112,48 95,50 88,30 Z" />
+
+    <!-- Bottom Croissant -->
+    <path
+        android:fillColor="#D97706"
+        android:strokeColor="#78350F"
+        android:strokeWidth="3"
+        android:pathData="M 30,110 C 20,85 55,65 100,65 C 145,65 175,88 160,115 C 148,135 110,135 80,128 C 55,122 35,120 30,110 Z" />
+
+    <!-- Flaky Segments for Front Croissant -->
+    <path
+        android:fillColor="#F59E0B"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2"
+        android:pathData="M 60,78 C 75,70 120,70 132,82 C 125,108 80,110 60,78 Z" />
+    <path
+        android:fillColor="#FCD34D"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2"
+        android:pathData="M 78,75 C 88,70 110,70 118,78 C 112,100 85,102 78,75 Z" />
+
+    <!-- Shiny Crust Glaze Highlights -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M 85,73 C 92,71 102,71 108,74 C 105,82 92,82 85,73 Z" />
+
+</vector>

@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="160dp"
+    android:viewportWidth="200"
+    android:viewportHeight="160">
+
+    <!-- Wooden Board / Plate Base -->
+    <path
+        android:fillColor="#D2B48C"
+        android:pathData="M 10,120 C 10,110 50,100 100,100 C 150,100 190,110 190,120 L 180,150 C 180,158 140,160 100,160 C 60,160 20,158 20,150 Z" />
+
+    <!-- Back Pão Francês -->
+    <path
+        android:fillColor="#E6A15C"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="2"
+        android:pathData="M 30,70 C 20,40 50,20 90,20 C 130,20 160,40 150,70 C 140,90 100,95 50,90 Z" />
+    <path
+        android:fillColor="#FFF8DC"
+        android:pathData="M 55,42 C 60,35 75,32 85,38 C 75,48 60,50 55,42 Z" />
+    <path
+        android:fillColor="#FFF8DC"
+        android:pathData="M 95,42 C 100,35 115,32 125,38 C 115,48 100,50 95,42 Z" />
+
+    <!-- Front Center Pão Francês (Crispy Golden) -->
+    <path
+        android:fillColor="#F4A460"
+        android:strokeColor="#A0522D"
+        android:strokeWidth="3"
+        android:pathData="M 25,110 C 20,80 50,55 100,50 C 150,45 180,75 170,110 C 160,135 120,140 50,135 Z" />
+
+    <!-- Golden Crust Highlights and Slit Cuts -->
+    <path
+        android:fillColor="#FFFDD0"
+        android:pathData="M 50,85 C 60,70 85,65 95,75 C 85,92 65,95 50,85 Z" />
+    <path
+        android:fillColor="#FFFDD0"
+        android:pathData="M 105,82 C 115,68 140,65 150,75 C 140,92 120,95 105,82 Z" />
+
+    <!-- Crunchy Top Lines -->
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M 45,82 C 55,75 75,72 90,80 M 102,80 C 112,72 132,70 148,78" />
+
+</vector>

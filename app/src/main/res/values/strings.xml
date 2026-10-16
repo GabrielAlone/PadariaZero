@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Padaria Zero</string>
+    <string name="nav_home">Início</string>
+    <string name="nav_orders">Pedidos</string>
+    <string name="nav_cart">Carrinho</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="tagline">Pão fresco, todo dia.</string>
+    <string name="cd_logo">Padaria Zero Logo</string>
+    <string name="brand_padaria">PADARIA</string>
+    <string name="brand_zero">Z E R O</string>
+    <string name="onboarding_title">O melhor da sua padaria, na sua mão.</string>
+    <string name="onboarding_subtitle">Pães, salgados, doces e muito mais.\nTudo fresquinho, pertinho de você.</string>
+    <string name="btn_lets_go">Vamos lá →</string>
+    <string name="login_title">Entrar</string>
+    <string name="email_or_phone">E-mail ou telefone</string>
+    <string name="password">Senha</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="or">ou</string>
+    <string name="login_with_google">Entrar com Google</string>
+    <string name="no_account_register">Não tem uma conta? Cadastre-se</string>
+    <string name="pao_frances">Pão francês</string>
+    <string name="pao_de_queijo">Pão de queijo</string>
+    <string name="croissant">Croissant</string>
+    <string name="cafe_com_leite">Café com leite</string>
+    <string name="sonho">Sonho de creme</string>
+    <string name="price_pao_frances">R$ 0,80</string>
+    <string name="price_pao_queijo">R$ 1,50</string>
+    <string name="price_croissant">R$ 2,50</string>
+    <string name="price_cafe">R$ 4,00</string>
+    <string name="price_sonho">R$ 3,50</string>
+    <string name="pao_queijo_desc">Feito com ingredientes selecionados, quentinho, com muito queijo e sabor!</string>
+    <string name="pao_frances_desc">Pão francês quentinho e crocante por fora, macio por dentro. Produzido de hora em hora!</string>
+    <string name="croissant_desc">Croissant folhado amanteigado, crocante e dourado por fora, leve e delicioso por dentro.</string>
+    <string name="cafe_desc">Café espresso cremoso combinado com leite vaporizado quentinho na medida certa.</string>
+    <string name="qty_one">1</string>
+    <string name="qty_two">2</string>
+
+    <string name="address_sample">Rua das Flores, 123 ▾</string>
+    <string name="street_address_sample">Rua das Flores, 123</string>
+    <string name="bairro_sample">Bairro Centro</string>
+    <string name="search_hint">Buscar produtos&#8230;</string>
+    <string name="promo_title">Pão fresco todo dia!</string>
+    <string name="promo_subtitle">Qualidade e sabor perto de você.</string>
+    <string name="categories_title">Categorias</string>
+    <string name="cat_paes">Pães</string>
+    <string name="cat_salgados">Salgados</string>
+    <string name="cat_doces">Doces</string>
+    <string name="cat_bebidas">Bebidas</string>
+    <string name="highlights_title">Destaques</string>
+    <string name="see_all">Ver todos ›</string>
+    <string name="cat_all">Todos</string>
+    <string name="cat_sweet_breads">Pães doces</string>
+    <string name="cat_savory_breads">Pães salgados</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="delivery_fee">Entrega</string>
+    <string name="total">Total</string>
+    <string name="finish_order">Finalizar pedido</string>
+    <string name="track_order">Acompanhar pedido</string>
+    <string name="my_profile">Meu perfil</string>
+    <string name="find_bakery">Encontrar padaria</string>
+    <string name="special_offer_title">Chacoalhou, ganhou!</string>
+    <string name="special_offer_subtitle">20% OFF em qualquer salgado!</string>
+    <string name="view_offer">Ver oferta</string>
+    <string name="not_now">Agora não</string>
+    <string name="add_to_cart">Adicionar ao carrinho</string>
+    <string name="sample_subtotal">R$ 6,30</string>
+    <string name="sample_delivery">R$ 3,00</string>
+    <string name="sample_total">R$ 9,30</string>
+    <string name="delivery_address_title">Endereço de entrega</string>
+    <string name="payment_method_title">Forma de pagamento</string>
+    <string name="pix">Pix</string>
+    <string name="credit_card">Cartão de crédito</string>
+    <string name="cash">Dinheiro</string>
+    <string name="change">Alterar</string>
+
+    <string name="step_order_placed">Pedido\nrealizado</string>
+    <string name="step_preparing">Em preparo</string>
+    <string name="step_out_for_delivery">Saiu para\nentrega</string>
+    <string name="step_delivered">Entregue</string>
+    <string name="order_on_the_way">Seu pedido está a caminho!</string>
+    <string name="estimated_time">Tempo estimado: 15 min</string>
+    <string name="order_details">Detalhes do pedido</string>
+    <string name="user_name">Gabriel</string>
+    <string name="user_email">gabriel@email.com</string>
+    <string name="my_orders">Meus pedidos</string>
+    <string name="addresses">Endereços</string>
+    <string name="payment_methods">Formas de pagamento</string>
+    <string name="help">Ajuda</string>
+    <string name="settings">Configurações</string>
+
+    <string name="you_are_here">Você está aqui</string>
+    <string name="full_address_sample">Rua das Flores, 123 - Bairro Centro</string>
+    <string name="use_my_location">Usar minha localização</string>
+
+    <string name="surprise_offer">Aqui está sua oferta surpresa!</string>
+    <string name="valid_next_order">Válido para o seu próximo pedido</string>
+
+    <!-- Permission & Error Screen Strings -->
+    <string name="perm_location_title">Permitir acesso à localização?</string>
+    <string name="perm_location_desc">A Padaria Zero precisa acessar sua localização (GPS) para encontrar a unidade mais próxima e entregar seus pães quentinhos no endereço correto.</string>
+    <string name="btn_allow_while_using">Permitir durante o uso do app</string>
+    <string name="btn_allow_only_this_time">Apenas esta vez</string>
+    <string name="btn_dont_allow">Não permitir</string>
+
+    <string name="perm_sensor_title">Permitir acesso aos sensores de movimento?</string>
+    <string name="perm_sensor_desc">A promoção "Chacoalhou, Ganhou!" utiliza o acelerômetro do celular para sentir quando você balança o aparelho e liberar cupons surpresa exclusivos.</string>
+    <string name="btn_allow_sensors">Permitir acesso aos sensores</string>
+
+    <string name="error_location_title">Permissão de Localização Negada</string>
+    <string name="error_location_desc">Não foi possível determinar a Padaria Zero mais próxima porque a permissão de GPS foi recusada. Você pode tentar permitir novamente ou digitar seu endereço manualmente.</string>
+    <string name="btn_try_again">Tentar novamente</string>
+    <string name="btn_manual_address">Digitar endereço manualmente</string>
+
+    <string name="error_sensor_title">Recurso de Acelerômetro Indisponível</string>
+    <string name="error_sensor_desc">Você optou por não permitir o uso do sensor de movimento. A promoção "Chacoalhou, Ganhou!" depende do acelerômetro do dispositivo para detectar o chacoalho.</string>
+    <string name="btn_enable_settings">Permitir nas Configurações</string>
+    <string name="btn_back_home">Voltar ao Início</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Map Land Background -->
+    <path
+        android:fillColor="#E8ECEF"
+        android:pathData="M 0,0 L 400,0 L 400,300 L 0,300 Z" />
+
+    <!-- Green Park Area -->
+    <path
+        android:fillColor="#D1E7DD"
+        android:pathData="M 30,20 C 80,10 150,40 180,90 C 190,120 120,160 80,140 C 40,120 10,60 30,20 Z" />
+
+    <!-- Streets/Roads -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="16"
+        android:pathData="M 0,100 L 400,120 M 150,0 L 170,300 M 0,220 L 400,200 M 300,0 L 280,300" />
+    <path
+        android:strokeColor="#FFD180"
+        android:strokeWidth="6"
+        android:pathData="M 0,100 L 400,120 M 150,0 L 170,300 M 0,220 L 400,200" />
+
+    <!-- User Location Pin (Blue) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M 170,120 A 10,10 0 1,0 170,100 A 10,10 0 1,0 170,120 Z" />
+
+    <!-- Padaria Zero Bakery Pin (Orange) -->
+    <path
+        android:fillColor="#FF7A00"
+        android:pathData="M 280,180 C 265,180 255,192 255,207 C 255,225 280,250 280,250 C 280,250 305,225 305,207 C 305,192 295,180 280,180 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 280,195 A 5,5 0 1,0 280,205 A 5,5 0 1,0 280,195 Z" />
+
+</vector>

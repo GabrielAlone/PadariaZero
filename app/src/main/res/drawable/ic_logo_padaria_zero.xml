@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="170dp"
+    android:viewportWidth="260"
+    android:viewportHeight="220">
+
+    <!-- Orange Pill Background Shape -->
+    <path
+        android:fillColor="#FFA733"
+        android:pathData="M 60,25 C 60,12 75,0 95,0 L 165,0 C 185,0 200,12 200,25 L 200,100 C 200,112 185,125 165,125 L 95,125 C 75,125 60,112 60,100 Z" />
+
+    <!-- Main Back Bread (Center) -->
+    <path
+        android:fillColor="#FFB84D"
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M 68,80 C 62,60 80,40 108,35 C 140,30 172,40 188,58 C 198,70 188,88 170,92 C 138,102 85,102 68,80 Z" />
+
+    <!-- Back Bread Slits -->
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 90,52 L 102,40 M 122,46 L 134,34 M 154,48 L 168,38" />
+
+    <!-- Front Left Bread -->
+    <path
+        android:fillColor="#FFA033"
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M 52,108 C 46,92 64,78 92,75 C 120,72 138,85 132,100 C 126,114 98,120 70,118 C 58,116 50,112 52,108 Z" />
+
+    <!-- Front Left Bread Slits -->
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 72,88 L 82,78 M 95,85 L 108,76" />
+
+    <!-- Front Right Bread -->
+    <path
+        android:fillColor="#FFA033"
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M 112,112 C 106,98 124,85 152,82 C 180,79 198,92 192,106 C 186,120 158,124 130,122 C 118,120 110,116 112,112 Z" />
+
+    <!-- Front Right Bread Slits -->
+    <path
+        android:strokeColor="#2B2B2B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 132,95 L 144,84 M 158,92 L 172,82" />
+
+</vector>

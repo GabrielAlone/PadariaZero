@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors - Padaria Zero -->
+    <color name="orange_primary">#FF7A00</color>
+    <color name="orange_primary_dark">#E06200</color>
+    <color name="orange_secondary">#FF9500</color>
+    <color name="orange_light_bg">#FFF3E0</color>
+    <color name="orange_chip_bg">#FFE0B2</color>
+
+    <!-- Backgrounds -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_card">#2A2A2A</color>
+    <color name="light_background">#FAF8F5</color>
+    <color name="light_surface">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_muted">#9CA3AF</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_orange">#FFFFFF</color>
+
+    <!-- Status & Functional Colors -->
+    <color name="divider_color">#E5E7EB</color>
+    <color name="input_border">#D1D5DB</color>
+    <color name="input_bg">#F9FAFB</color>
+    <color name="success_green">#10B981</color>
+    <color name="star_yellow">#F59E0B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay_dark">#80000000</color>
+</resources>
